@@ -8,7 +8,7 @@ export const signup =  async (req,res,next)=>{
     const newUser = new User({username , email , password:hashedPassword});
    try {await  newUser.save();
     res.status(201).json({ message: 'Signup successful' })
-
+ 
 } catch(error){
     
     if(error.message.includes('username_1 dup key')){
