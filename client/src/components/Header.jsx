@@ -16,12 +16,6 @@ export default function Header() {
           <Link to='/about'>
             <li>About</li>
           </Link>
-          {/* <Link to='/sign-in'>
-            <li>SignIn</li>
-          </Link>
-           <Link to='/sign-up'>
-            <li>SignUp</li>
-          </Link> */}
           <Link to='/profile'>
             {currentUser ? (
               <img src={currentUser.profilePicture} alt='profile' className='h-7 w-7 rounded-full object-cover' />

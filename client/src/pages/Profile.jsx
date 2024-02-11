@@ -118,8 +118,7 @@ export default function Profile() {
           accept='image/*'
           onChange={(e) => setImage(e.target.files[0])}
         />
-        {/* 
-      firebase storage rules:  
+        {/*  
       allow read;
       allow write: if
       request.resource.size < 2 * 1024 * 1024 &&

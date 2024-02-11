@@ -6,7 +6,9 @@ dotenv.config();
 import userRoutes from "./routes/user.routes.js";
 const PORT = process.env.PORT
 import authRoutes from "./routes/auth.routes.js";
+import cookieParser from 'cookie-parser';
 app.use(express.json());
+app.use(cookieParser());
 
 
 mongoose.connect(process.env.MONGODB_URI)
