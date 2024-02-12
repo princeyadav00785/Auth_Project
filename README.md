@@ -76,5 +76,5 @@ VITE_FIREBASE_API_KEY=your-firebase-api-key
 
 Replace the values with your specific configurations.
 
-```
+
 
