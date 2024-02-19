@@ -56,7 +56,7 @@ Auth_Project
    npm run dev
    ```
 
-## Environment Variables
+## Environment Variables :
 
 Make sure to create a `.env` file in the root of the `Auth_Project` folder with the following variables:
 
